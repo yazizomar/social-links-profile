@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    /* Max width for mobile */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px 0 10px 0;
+
+}
+
+.profile-header h1 {
+    margin-bottom: -5px;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+.location {
+    font-weight: 525;
+    font-size: 15px;
+    color: hsl(75, 94%, 57%)      
+}
+
+.bio {
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    font-size: 14px;
+    margin: 30px 0 10px 0;
+}
+
+.profile-links a {
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px 20px;
+    margin: 15px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.1s;
+    font-weight: 600;
+
+}
+
+.profile-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 375px) {
+    .profile-card {
+        width: calc(100% - 40px);
+       
+    }
+}
+
+@media (min-width: 1440px) {
+    .profile-card {
+        width: 300px;       
+    }
+}
+
+.attribution {
+    margin-top: 30px;
+    margin-bottom: -22px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
