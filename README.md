@@ -8,3 +8,7 @@ Flexbox
 CSS Grid
 Mobile-first workflow
 Styled Components - For styles
+
+
+Result:
+https://yazizomar.github.io/social-links-profile/
